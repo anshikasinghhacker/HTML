@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+
+        background-color: #414141;
+        color: #FFFF;
+    }
+    </style>
+</head>
+<body>
+    <img src="" alt="no image">
+    <img src="https://images.unsplash.com/photo-1704741252008-bc9930d84a0a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="500px" alt="no image">
+    <img src="/photo-1705917678134-10c51f7cdb24.avif" width="200px" alt="no image">
+
+    <picture> <source srcset="/photo-1705917678134-10c51f7cdb24.avif"/>
+        <img src="/photo-1705917678134-10c51f7cdb24.avif" width= "300px" alt="no image">
+    </picture>
+
+    <picture> <source media="(min-width:350px )" srcset="/photo-1705917678134-10c51f7cdb24.avif">
+              <source media="(min-width: 450px )" srcset="/photo-1705917678134-10c51f7cdb24.avif">
+              <img src="/photo-1705917678134-10c51f7cdb24.avif" width = "200px" alt="no image">
+    </picture>
+
+    <!-- an image map genetrator
+    <img src="photo-1605514449459-5a9cfa0b9955.avif" usemap="#image-map">
+
+<map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="783,816,3,665" shape="rect">
+    <area onclick="two()" target="" alt="" title="" href="" coords="1001,857,1512,721" shape="poly">
+</map>
+
+<script> 
+function one(){
+    alert("you clicked on one")
+    
+}
+function two(){
+    alert("you clicked on two")
+    
+}
+</script> -->
+</body>
+</html>
